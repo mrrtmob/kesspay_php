@@ -1,0 +1,21 @@
+{
+    "name": "tmob/kesspay",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Tmob\\Kesspay\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "tmob"
+        }
+    ],
+    "require": {
+        "ircmaxell/random-lib": "^1.2",
+        "guzzlehttp/guzzle": "^7.5"
+    },
+    "require-dev": {
+        "barryvdh/laravel-ide-helper": "^2.13"
+    }
+}
