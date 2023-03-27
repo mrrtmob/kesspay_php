@@ -52,8 +52,7 @@ Query Order
 
 ```php
 $queryOrder = $kess=>queryOrder([
-	"out_trade_no": "$allPaymentMethod = $kess=>listAllPaymentMethod()
-"
+	"out_trade_no": "TR-20230310104700"
 ])
 
 ```
@@ -62,8 +61,7 @@ Close Order
 
 ```php
 $queryOrder = $kess=>closeOrder([
-	"out_trade_no": "$allPaymentMethod = $kess=>listAllPaymentMethod()
-"
+	"out_trade_no": "TR-20230310104700"
 ])
 
 ```
